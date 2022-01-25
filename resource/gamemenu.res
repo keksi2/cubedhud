@@ -154,7 +154,7 @@
 			echo -----------+++++----+++++-----------;
 			echo ------------------------------------;
 			echo  ;
-			echo hud^3 v1.0 beta (<github link>);
+			echo hud^3 v1.0 beta (github.com/keksi2/cubedhud);
 			echo Made by keksi (steamcommunity.com/id/keksi212/);
 			echo  ;
 			echo Current Build Date:;
