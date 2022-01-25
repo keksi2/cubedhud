@@ -1,13 +1,13 @@
 # hud³ (beta)
 
 ### created by keksi
-**based on [sammyhud✿](https://huds.tf/site/s-sammyhud%E2%9C%BF "HUDS.TF") and [Eleven Hud (defunct)](https://github.com/Jofre-Problem/Eleven-Hud "Deleted GitHub Repo")**
+**based on [sammyhud✿](https://huds.tf/site/s-sammyhud%E2%9C%BF "HUDS.TF")**
 
 # Customization
 **user defined options are located in the _.Preferences folder_ in the cubedhud-master directory**
 
 # Credits
-**[sammy✿](https://steamcommunity.com/id/sammybun/) for inspiration and for providing a base for certain files**
+**[sammy✿](https://steamcommunity.com/id/sammybun/) for inspiration and for providing a base for certain files (aka i stole stuff from sammyhud)**
 
 **[Jofre Problem?](https://steamcommunity.com/id/jofreproblem/) for inspiration**
 
