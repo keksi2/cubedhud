@@ -1,4 +1,4 @@
-# hud^3^ (beta)
+# hud³ (beta)
 
 ### created by keksi
 **based on [sammyhud✿](https://huds.tf/site/s-sammyhud%E2%9C%BF "HUDS.TF") and [Eleven Hud (defunct)](https://github.com/Jofre-Problem/Eleven-Hud "Deleted GitHub Repo")**
