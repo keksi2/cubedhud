@@ -1,6 +1,6 @@
 "GameMenu" [$WIN32]
 {
-	// MMDashboard Buttons
+	// ""MMDashboard"" Buttons
 	"ShowButtonsButton"
 	{
 		"label"	"m"
@@ -158,7 +158,7 @@
 			echo Made by keksi (steamcommunity.com/id/keksi212/);
 			echo  ;
 			echo Current Build Date:;
-			echo January 24, 2022"
+			echo January 25, 2022"
 
 		"tooltip" ""
 	}
