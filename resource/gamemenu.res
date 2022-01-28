@@ -5,7 +5,7 @@
 	{
 		"label"	"m"
 		"command" "motd_show"
-		"tooltip" ""
+		"tooltip" "Show Buttons"
 	}
 	// In-Game Buttons
 	"CallVoteButton"
@@ -154,11 +154,11 @@
 			echo -----------+++++----+++++-----------;
 			echo ------------------------------------;
 			echo  ;
-			echo hud^3 v1.0 beta (github.com/keksi2/cubedhud);
+			echo hud^3 v1.1 beta (github.com/keksi2/cubedhud);
 			echo Made by keksi (steamcommunity.com/id/keksi212/);
 			echo  ;
 			echo Current Build Date:;
-			echo January 25, 2022"
+			echo January 27, 2022"
 
 		"tooltip" ""
 	}

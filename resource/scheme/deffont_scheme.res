@@ -14,7 +14,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"MADE Evolve Sans Edit"
+				"name"		"Arial"
 				"tall"		"12"
 				"range" 	"0x0000 0x00FF"
 			}
@@ -206,12 +206,9 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
-
+				"name"		"MADE Evolve Sans Edit"
+				"tall"		"14"
 				"antialias" "1"
-				"additive"	"1"
 			}
 		}
 

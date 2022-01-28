@@ -186,6 +186,126 @@ Scheme
 				"blur"			"1"
 			}
 		}
+		"Evo Sans Bold Blur 12"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"12"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 14"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"14"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 16"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"16"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 18"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"18"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 20"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"20"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 22"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"22"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 24"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"24"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 26"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"26"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 28"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"28"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 30"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"30"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 32"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"32"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Bold Blur 34"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"34"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
 		
 		// MADE Evolve Sans Edit
 		"Evo Sans 8"

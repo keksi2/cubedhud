@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusMultipleEscort"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"15"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
@@ -28,7 +28,7 @@
 		
 		"if_blue_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r168"
 		}
 	}
 
@@ -48,7 +48,7 @@
 		
 		"if_red_is_top"
 		{
-			"ypos"				"r176"
+			"ypos"				"r168"
 		}
 	}
 }

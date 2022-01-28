@@ -424,5 +424,61 @@
 			"enabled"		"1"
 			"image"			"../sprites/obj_icons/icon_obj_white"
 		}
+		
+		//Payload Icons
+		"pliconcpblu"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"pliconcpblu"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/cart_point_blue"
+		}
+		"pliconcpbluop"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"pliconcpbluop"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/cart_point_blue_opaque"
+		}
+		"pliconcpred"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"pliconcpred"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/cart_point_red"
+		}
+		"pliconcpredop"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"pliconcpredop"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/cart_point_red_opaque"
+		}
+		"pliconcpneutral"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"pliconcpneutral"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/cart_point_neutral"
+		}
+		"pliconcpneutralop"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"pliconcpneutralop"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/cart_point_neutral_opaque"
+		}
 	}
 }

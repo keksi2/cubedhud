@@ -30,7 +30,7 @@
 	{
 		"ControlName"	"ImagePanel"		
 		"fieldName"	"CapPlayerImage"
-		"xpos"		"0"
+		"xpos"		"1"
 		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"7"
@@ -45,8 +45,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"CapPlayerFontSmall"
-		"xpos"			"10"
+		"font"			"Tommy Medium 10"
+		"xpos"			"9"
 		"ypos"			"3"
 		"zpos"			"4"
 		"wide"			"14"
@@ -92,8 +92,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"ControlPointTimer"
-		"font_minmode"	"ControlPointTimerSmaller"
+		"font"			"Tommy Medium 8"
 	}
 				
 	"CPTimerBG"
@@ -107,7 +106,7 @@
 		"tall"			"21"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"	
+		"image"			"replay/thumbnails/color/trans_black_50"	
 		"scaleImage"	"1"	
 	}
 }

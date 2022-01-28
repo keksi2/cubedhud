@@ -4,13 +4,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"ypos"			"r150"
-	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"labelText"				"#TF_Cleaver"
+		"ypos"			"r152"
 	}
 }

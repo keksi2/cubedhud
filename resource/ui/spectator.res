@@ -48,7 +48,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"Evo Sans Bold 20"
-		"xpos"			"5"	
+		"xpos"			"-41"	
 		"ypos"			"rs1-5"
 		"wide"			"f0"
 		"tall"			"18"

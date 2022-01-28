@@ -360,17 +360,6 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"	
 		}
-		TFFatLineBorderRedBG
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
 			"bordertype"			"scalable_image"
@@ -382,16 +371,27 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorderRedBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/color/red_team"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
-			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"image"					"replay/thumbnails/color/blu_team"
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
@@ -520,12 +520,12 @@ Scheme
 		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 		Econ.Button.Border.Armed
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		LoadoutItemMouseOverBorder
