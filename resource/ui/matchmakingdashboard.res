@@ -61,15 +61,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
+			"depressedFgColor_override" "White^3"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"White^3"
+			"image_armedcolor"	"White^3"
 
 			"SubImage"
 			{
@@ -291,7 +291,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"Evo Sans 12"
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"White^3"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
@@ -346,7 +346,7 @@
 				"depressedFgColor_override" "Blank"
 
 				"image_drawcolor"	"nüOffWhite"
-				"image_armedcolor"	"White"
+				"image_armedcolor"	"White^3"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -394,8 +394,8 @@
 				"defaultFgColor_override"	"220 220 220 255"
 				"armedFgColor_override"		"211 78 78 255"
 
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"White"
+				"image_drawcolor"	"White^3"
+				"image_armedcolor"	"White^3"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -544,16 +544,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
+			"depressedFgColor_override" "White^3"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "162 0 0 255"
 			"depressedBgColor_override" "162 0 0 255"
 
 			
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"White^3"
+			"image_armedcolor"	"White^3"
 			
 		}
 		"DisconnectButton"
@@ -588,16 +588,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
-			"armedFgColor_override"   	"White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" 	"White^3"
+			"armedFgColor_override"   	"White^3"
+			"depressedFgColor_override" "White^3"
 			"defaultBgColor_override" 	"Blank"
 			"armedBgColor_override"   	"162 0 0 255"
 			"depressedBgColor_override" "162 0 0 255"
 
 			
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"White^3"
+			"image_armedcolor"	"White^3"
 			
 		}
 		"ResumeButton"
@@ -632,15 +632,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
+			"depressedFgColor_override" "White^3"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"White^3"
+			"image_armedcolor"	"White^3"
 
 			"SubImage"
 			{
@@ -692,15 +692,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
+			"depressedFgColor_override" "White^3"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"White^3"
+			"image_armedcolor"	"White^3"
 
 		}
 		

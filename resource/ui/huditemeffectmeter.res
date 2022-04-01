@@ -9,7 +9,7 @@
 		"ypos"			"r142"
 		"wide"			"163"
 		"tall"			"50"
-		"MeterFG"		"MeterFG"
+		"MeterFG"		"White^3"
 		"MeterBG"		"MeterBG"
 	}
 	
@@ -25,8 +25,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"east"
-		"font"					"Evo Sans 8"
+		"textAlignment"			"center"
+		"font"					"Evo Sans Bold 8"
+		"AllCaps"				"1"
 	}
 	"ItemEffectMeter"
 	{	
@@ -41,6 +42,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
+		"fgcolor_override"		"White^3"
 		"bgcolor_override"		"MeterBG"
 	}
 }

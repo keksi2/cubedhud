@@ -49,7 +49,7 @@
 		"textAlignment"		"center"
 		"command"		"skip"
 		"font"			"Evo Sans Bold 16"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}
 	
 	"Back"
@@ -71,7 +71,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"Evo Sans Bold 16"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}
 	
 	"VideoPanel"
@@ -99,7 +99,8 @@
 		"wide"			"300"
 		"tall"			"225"
 		"visible"		"1"
-		"bgcolor_override"	"TransparentBlack"
+		"bgcolor_override"	"Black^3"
+		"alpha"			"128"
 	}
 	
 	"VideoCaption"
@@ -120,7 +121,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Evo Sans 16"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 		"wrap"			"1"
 	}
 	

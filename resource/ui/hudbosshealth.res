@@ -19,7 +19,7 @@
 			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/color/trans_purple_50"
+			"image"			"replay/thumbnails/color/unusualpurple"
 			"scaleImage"	"1"
 		}
 	}

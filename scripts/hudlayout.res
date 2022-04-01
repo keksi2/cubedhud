@@ -1,4 +1,4 @@
-// Don't touch these!
+// Don't touch these! 
 	#base "../.Preferences/Crosshair.res"
 	#base "../.Preferences/Transparent Viewmodels.res"
 
@@ -57,7 +57,7 @@
 		"ypos"			"r52"
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"White^3"
 		"MeterBG"		"Gray"
 	}
 	HudMedicCharge
@@ -70,36 +70,31 @@
 		"wide"			"300"
 		"tall"			"150"
 	}
+	HudDemomanPipes
+	{
+		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"cs-0.5"
+		"ypos"			"r142"
+		"wide"			"163"
+		"tall"			"50"
+		"MeterFG"		"White^3"
+		"MeterBG"		"MeterBG"
+	}	
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"r130"
-		"wide"			"166"
+		"ypos"			"r152"
+		"wide"			"163"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"White^3"
 		"MeterBG"		"MeterBG"
 	}
-	HudBowCharge
-	{
-		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
+	
 	HudFlameRocketCharge
 	{
 		"fieldName"		"HudFlameRocketCharge"
@@ -115,7 +110,7 @@
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
-		"MeterFG"		"White"
+		"MeterFG"		"White^3"
 		"MeterBG"		"Gray"
 	}
 
@@ -125,7 +120,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-85"
-		"ypos"			"42"
+		"ypos"			"42" // OBSOLETE!
 		"wide"			"168"
 		"tall"			"18"
 	}
@@ -209,8 +204,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"
-		"ypos"		"r70"
+		"xpos"		"40"
+		"ypos"		"r23"
 		"wide"		"500"
 		"tall"		"200"
 	}
@@ -440,11 +435,11 @@
 		
 		"TeamBlue"		"Blue Team^3"
 		"TeamRed"		"Red Team^3"
-		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
+		"IconColor"		"White^3"
+		"LocalPlayerColor"	"Black^3"
 
-		"BaseBackgroundColor"	"0 0 0 25"
-		"LocalBackgroundColor"	"255 255 255 100"
+		"BaseBackgroundColor"	"Blank"
+		"LocalBackgroundColor"	"Death Notice BG"
 	}
 
 	HudVehicle
@@ -543,7 +538,7 @@
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"0"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -676,7 +671,7 @@
 		"xpos" "r145"
 		"ypos" "0"
 		"wide" "145"
-		"tall" "400"
+		"tall" "365"
 
 		"item_wide"	"121"
 		
@@ -782,26 +777,16 @@
 		"enabled"				"1"
 		"icon_space"			"2"
 	}
-	
-	HUDAutoAim
-	{
-
-	}	
-	
-	HudHDRDemo
-	{
-
-	}
 
 	WinPanel
 	{
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
@@ -857,12 +842,11 @@
 	FreezePanelCallout
 	{
 		"fieldName"				"FreezePanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"9999"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	AnnotationsPanelCallout
@@ -966,19 +950,6 @@
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
-	}	
-	
-	HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"r140"
-		"wide"			"166"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"MeterBG"
 	}	
 
 	HudTeamGoal
@@ -1155,7 +1126,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"16"
+		"ypos"					"25"
 		"wide"					"f0"
 		"tall"					"50"
 	}	

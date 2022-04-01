@@ -12,8 +12,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#TF_Charge"
-		"textAlignment"			"east"
-		"font"					"Evo Sans 8"
+		"textAlignment"			"center"
+		"font"					"Evo Sans Bold 8"
+		"AllCaps"				"1"
 	}
 	"ChargeMeter"
 	{	
@@ -28,7 +29,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"White^3"
 		"bgcolor_override"		"MeterBG"
 	}	
 }

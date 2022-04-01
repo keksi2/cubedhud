@@ -31,7 +31,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Tommy Medium Blur 16"
-		"fgcolor"		"Black"
+		"fgcolor"		"Black^3"
 		
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"1"

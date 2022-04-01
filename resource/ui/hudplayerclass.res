@@ -18,11 +18,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"3"
-		"ypos"			"r67"
 		"zpos"			"7"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"75"
+		"tall"			"75"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"

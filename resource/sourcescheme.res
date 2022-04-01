@@ -1,12 +1,10 @@
 #base "SourceSchemeBase.res"
+#base "../.Preferences/Colors.res"
 
 Scheme
 {
 	Colors
 	{
-	
-		"Generic^3"					"26 216 115 255" // taken from Colors.res
-	
 	    "TFDarkBrown"               "0 0 0 128" // original was "60 56 53 255"
 	    "TFDarkBrownTransparent"    "0 0 0 128" // original was "60 56 53 190"
 	    "TFTanBright"               "255 255 255 255" // original was "236 227 203 150"
@@ -26,10 +24,6 @@ Scheme
 	    "QuickListBGSelected"       "0 0 0 128" // original was "131 121 104 150"
 	    
 	    "Blank"						"0 0 0 0"
-	    
-	    // background colors
-		"SelectionBG"				"26 216 115 255"	// background color of any selected text or menu item // original was "90 84 75 255"
-		"SelectionBG2"				"26 216 115 255"		// selection background in window w/o focus // original was "69 64 57 255"
 		"ListBG"					"0 0 0 128"		// background of server browser, buddy list, etc. // original was "39 36 34 255"
 	}
 	BaseSettings
@@ -89,8 +83,8 @@ Scheme
 		
 		ListPanel.TextColor					"TFTextBright"
 		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
+		ListPanel.SelectedBgColor			"Generic^3"
+		ListPanel.SelectedOutOfFocusBgColor	"Generic^3"
 		
 		MainMenu.TextColor			"TanLight"			[$WIN32]
 		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
@@ -130,6 +124,25 @@ Scheme
 	
 	Fonts
 	{
+		// Default
+		"Default"
+		{
+			"1"
+			{
+				"name"		"MADE Evolve Sans Edit"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
+		"DefaultBold"
+		{
+			"1"
+			{
+				"name"		"MADE Evolve Sans Edit Bold"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
 		"ConsoleText"
 		{
 			"1"
@@ -255,6 +268,16 @@ Scheme
 		{
 			"font"  "resource/fonts/lucon.ttf"
 			"name"	"Lucida Console"
+		}
+		"3"
+		{
+			"font"  "resource/fonts/MADE Evolve Sans Edit Bold.otf"
+			"name"	"MADE Evolve Sans Edit Bold"
+		}
+		"4"
+		{
+			"font"  "resource/fonts/MADE Evolve Sans Edit.otf"
+			"name"	"MADE Evolve Sans Edit"
 		}
 	}
 }

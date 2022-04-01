@@ -67,8 +67,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"20"
-		"ypos"			"107"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"2"
@@ -77,14 +77,18 @@
 		"textAlignment"	"Left"
 		"fgcolor_override"	"Über Meter"
 		"bgcolor_override"	"MeterBG"
+		
+		"pin_to_sibling"		"ChargeMeter"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+        "pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"ChargeMeter2"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"61"
-		"ypos"			"107"
+		"xpos"			"41"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"2"
@@ -93,14 +97,18 @@
 		"textAlignment"	"Left"
 		"fgcolor_override"	"Über Meter"
 		"bgcolor_override"	"MeterBG"
+		
+		"pin_to_sibling"		"ChargeMeter1"
+		"pin_corner_to_sibling"	"1"
+        "pin_to_sibling_corner"	"1"
 	}
 	"ChargeMeter3"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"102"
-		"ypos"			"107"
+		"xpos"			"41"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"2"
@@ -109,14 +117,18 @@
 		"textAlignment"	"Left"
 		"fgcolor_override"	"Über Meter"
 		"bgcolor_override"	"MeterBG"
+		
+		"pin_to_sibling"		"ChargeMeter2"
+		"pin_corner_to_sibling"	"1"
+        "pin_to_sibling_corner"	"1"
 	}
 	"ChargeMeter4"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"143"
-		"ypos"			"107"
+		"xpos"			"41"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"2"
@@ -125,6 +137,10 @@
 		"textAlignment"	"Left"
 		"fgcolor_override"	"Über Meter"
 		"bgcolor_override"	"MeterBG"
+		
+		"pin_to_sibling"		"ChargeMeter3"
+		"pin_corner_to_sibling"	"1"
+        "pin_to_sibling_corner"	"1"
 	}
 	
 	"ResistIconAnchor"

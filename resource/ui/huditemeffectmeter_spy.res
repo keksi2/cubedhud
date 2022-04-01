@@ -1,1 +1,1 @@
-#base "HudItemEffectMeter_Demoman.res"
+#base "HudItemEffectMeter__Count.res"

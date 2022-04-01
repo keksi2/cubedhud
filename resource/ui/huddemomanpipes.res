@@ -42,7 +42,7 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
 			"font"			"Tommy Medium Blur 20"
-			"fgcolor"		"Black"
+			"fgcolor"		"Black^3"
 			
 			"pin_to_sibling"        "NumPipesLabel"
 			"pin_corner_to_sibling" "1"
@@ -91,7 +91,7 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
 			"font"			"Tommy Medium Blur 20"
-			"fgcolor"		"Black"
+			"fgcolor"		"Black^3"
 			
 			"pin_to_sibling"        "NumPipesLabel"
 			"pin_corner_to_sibling" "1"

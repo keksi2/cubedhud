@@ -1,1 +1,1 @@
-#base "HudItemEffectMeter_SniperFocus.res"
+#base "HudItemEffectMeter__Bottom.res"

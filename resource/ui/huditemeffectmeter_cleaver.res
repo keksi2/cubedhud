@@ -1,9 +1,1 @@
-#base "HudItemEffectMeter.res"
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
-{
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"ypos"			"r152"
-	}
-}
+#base "HudItemEffectMeter__Top.res"

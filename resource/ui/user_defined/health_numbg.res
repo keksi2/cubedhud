@@ -31,7 +31,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"Tommy Medium Blur 34"
-		"fgcolor"		"Black"
+		"fgcolor"		"Black^3"
 
 		"pin_to_sibling"	"PlayerStatusHealthValueAlt"
 		"pin_corner_to_sibling"	"1"
@@ -49,6 +49,7 @@
 		"visible"				"1"
 		"bgcolor_override"		"Blank"
 		"PaintBackgroundType"	"2"
+		"alpha"					"128"
 		
 		"pin_to_sibling"		"PlayerStatusHealthValueAlt"
 		"pin_corner_to_sibling"	"1"

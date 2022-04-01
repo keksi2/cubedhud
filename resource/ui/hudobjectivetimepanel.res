@@ -14,6 +14,7 @@
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"		"west"
 		"font"			"Evo Sans 10"
+		"fgcolor"		"White^3"
 	}			
 	"OvertimeLabel"
 	{
@@ -29,6 +30,7 @@
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"west"
 		"font"			"Evo Sans 10"
+		"fgcolor"		"White^3"
 	}			
 	"SuddenDeathLabel"
 	{
@@ -44,6 +46,7 @@
 		"labelText"		"#game_SuddenDeath"
 		"textAlignment"		"west"
 		"font"			"Evo Sans 10"
+		"fgcolor"		"White^3"
 	}			
 	"SetupLabel"
 	{
@@ -59,6 +62,7 @@
 		"labelText"		"#game_Setup"
 		"textAlignment"		"west"
 		"font"			"Evo Sans 10"
+		"fgcolor"		"White^3"
 	}	
 	"ServerTimeLimitLabel"
 	{

@@ -1,69 +1,48 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+#base "HudItemEffectMeter__Count.res"
+"Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"r20"
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
-	"ItemEffectMeterCount"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"15"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"font"					"Tommy Medium 20"
-	}
-	"ItemEffectMeterCountDS"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountDS"
-		"xpos"					"1"
-		"ypos"					"-1"
-		"wide"					"40"
-		"tall"					"20"	
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
-		"font"					"Tommy Medium Blur 20"
-		"fgcolor"				"Black"
-		
-		"pin_to_sibling"		"ItemEffectMeterCount"
-		"pin_corner_to_sibling"	"1"
-        "pin_to_sibling_corner"	"1"
 	}
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"13"
+		"xpos"					"2"
 		"ypos"					"1"
 		"wide"					"40"
 		"tall"					"20"
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"#TF_Ball"
 		"textAlignment"			"west"
 		"font"					"Icons 16"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
         "pin_to_sibling_corner"	"PIN_CENTER_LEFT"
+	}
+	"ItemEffectMeterCount"
+	{
+		"fieldName"				"ItemEffectMeterCount"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"west"
+	}
+	"ItemEffectMeterCountDS"
+	{
+		"fieldName"				"ItemEffectMeterCountDS"
+		"wide"					"40"
+		"tall"					"20"
+		"textAlignment"			"west"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_corner_to_sibling"	"1"
+        "pin_to_sibling_corner"	"1"
 	}
 	
 	"ItemEffectMeter"

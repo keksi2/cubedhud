@@ -34,7 +34,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}	
 
 	"TextMessage"

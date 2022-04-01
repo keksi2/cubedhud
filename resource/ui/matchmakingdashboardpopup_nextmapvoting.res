@@ -20,24 +20,6 @@
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
-		"OuterShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"OuterShadow"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"-2"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
-
-			"pinCorner"		"0"
-			"autoResize"	"2"
-		}
-
 		"BGPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -48,10 +30,10 @@
 			"wide"			"f5"
 			"tall"			"f5"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
+			"bgcolor_override" "0 0 0 150"
 
 			"HideButton"
 			{
@@ -165,8 +147,8 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"TanLight"
+				"font"			"Evo Sans 12"
+				"fgcolor_override"	"White^3"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"	"1"

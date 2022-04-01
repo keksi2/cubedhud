@@ -1,1 +1,1 @@
-#base "HudItemEffectMeter_Cleaver.res"
+#base "HudItemEffectMeter__Top.res"

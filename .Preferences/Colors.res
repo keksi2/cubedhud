@@ -1,3 +1,18 @@
+// |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
+// | THE VALUES ARE			 |
+// | "RED GREEN BLUE ALPHA." |
+// | 						 |
+// | USE COLOR PICKERS		 |
+// | AS MUCH AS POSSIBLE!	 |
+// | 						 |
+// | DON'T TOUCH THE ALPHA	 |
+// | UNLESS YOU KNOW WHAT	 |
+// | YOU'RE DOING!			 |
+// |_________________________|
+// (\__/) ||
+// (•ㅅ•) ||
+// / 　 づ
+
 Scheme
 {
 	Colors
@@ -19,8 +34,6 @@ Scheme
 		"Ammo No Clip"				"250 248 246 255"
 		"Ammo Low 1"				"219 81 81 255" // Low ammo pulsing animation
 		"Ammo Low 2"				"222 98 98 255"
-		"Ammo Low BG 1"				"219 81 81 128" // MAKE THE SAME COLOR AS AMMO LOW LEAVE THE ALPHA!
-		"Ammo Low BG 2"				"222 98 98 128"
 		
 		// Übercharge
 		// ==========================================
@@ -36,14 +49,21 @@ Scheme
 		
 		"Damage Numbers"			"255 255 0 128" // Negative color
 		"Healing Numbers"			"81 232 156 128" // Positive color
-		"Metal Count"				"250 248 246 128" // Engineer's metal count
-		"Number of Stickies"		"250 248 246 255" // Self explanitory
-		"MeterBG"					"0 0 0 100" // ItemEffectMeter background
+		"Metal Count"				"250 248 246 128"
+		"Number of Stickies"		"250 248 246 255"
+		"MeterBG"					"0 0 0 100" // Recharge meter background
+		"Death Notice BG"			"200 200 200 255" // Killfeed background when you get a kill
+		
+		"Number of Kills"			"81 232 156 255" // Number of kills on scoreboard
+		"Number of Deaths"			"253 253 150 255" // Number of deaths on scoreboard
+		"Number of Assists"			"167 199 231 255" // Number of assists on scoreboard
+		
+		"HUD Crosshair"				"81 232 156 255" // See "Crosshair.res" for more details (these are my preferred crosshair/hitmarker colors, feel free to change them)
+		"Hitmarker Hit"				"255 255 0 255" // Flash animation color for Hitmarker and Crosshair
 		
 		// CHudMenu (Voice Menu)
 		// ==========================================
 		"Menu Color"				"250 248 246 255" // Normal text
-		"Item Color"				"26 216 115 255" // Highlighted text
 		"Menu Box BG"				"0 0 0 100" // background
 		
 		// hud^3 specific colors
@@ -52,13 +72,15 @@ Scheme
 		"Buttons^3"					"154 206 196 196" // Main menu buttons background
 		"Generic^3"					"26 216 115 255" // Generic color used in lots of things
 		
-		"Blue Team^3"				"86 122 175 255" // Self explanitory
-		"Red Team^3"				"180 92 77 255"
-		"Spectator^3"				"0 0 0 255"
+		"White^3"					"250 248 246 255"
+		"Black^3"					"0 0 0 255"
+		"Gray^3"					"45 45 45 255"
 		
-		"Blue Team Dead^3"			"44 49 51 255" // Match status colors
+		"Blue Team^3"				"86 122 175 255"
+		"Red Team^3"				"180 92 77 255"
+		"Blue Team Dead^3"			"44 49 51 255" // Dead Match Status BG Color
 		"Red Team Dead^3"			"79 54 52 255"
-		"HP Bar Full^3"				"105 165 121 255"
+		"HP Bar Full^3"				"105 165 121 255" // HP Bar Color
 		"HP Bar Medium^3"			"255 179 71 255"
 		
 		// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

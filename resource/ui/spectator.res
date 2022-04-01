@@ -24,6 +24,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"west"
 		"font"			"Evo Sans Bold 20"
+		"fgcolor"		"White^3"
 	}
 	"BuyBackLabel"
 	{
@@ -42,6 +43,7 @@
 		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		"fgcolor"		"White^3"
 	}
 	"MapLabel"
 	{
@@ -57,6 +59,7 @@
 		"labelText"		"map: cp_bridge"
 		"AllCaps"		"1"
 		"textAlignment"		"west"
+		"fgcolor"		"White^3"
 	}
 	"itempanel"
 	{

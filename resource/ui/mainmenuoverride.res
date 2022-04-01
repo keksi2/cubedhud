@@ -1,6 +1,7 @@
 // DO NOT TOUCH THIS!
 	#base "../../resource/tools/VTF Preload.res"
-//#base "../../resource/tools/Reload HUD & Menu.res"
+	//#base "../../resource/tools/Reload HUD & Menu.res"
+
 // user defined files
 	#base "../../.Preferences/Friends List.res"
 	
@@ -146,7 +147,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"0"
 				"use_proportional_insets" "1"
-				"font"			"nüBold14"
+				"font"			"Evo Sans Bold 14"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -158,9 +159,9 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"2"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "nüBase"
-				"depressedFgColor_override" "nüBase"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   ""
+				"depressedFgColor_override" ""
 				
 				"image_drawcolor"	"0 0 0 175"
 				"image_armedcolor"	"0 0 0 255"
@@ -315,7 +316,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"White^3"
 			"auto_wide_tocontents" "1"
 		}
 	}
@@ -387,16 +388,16 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
 				"depressedBgColor_override" "Buttons^3"
 
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"White"	
+				"image_drawcolor"	"White^3"
+				"image_armedcolor"	"White^3"	
 			}
 		}
 		"DemoUIButton"
@@ -439,9 +440,9 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -485,9 +486,9 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -550,9 +551,9 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -598,9 +599,9 @@
 				"paintbackground"		"1"
 				"PaintBackgroundType"	"0"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -647,9 +648,9 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -696,9 +697,9 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -745,9 +746,9 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -794,9 +795,9 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
@@ -847,16 +848,16 @@
 				"border_armed"		"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultFgColor_override" "White"
-				"armedFgColor_override"   "White"
-				"depressedFgColor_override" "White"
+				"defaultFgColor_override" "White^3"
+				"armedFgColor_override"   "White^3"
+				"depressedFgColor_override" "White^3"
 			
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override"   	"Buttons^3"
 				"depressedBgColor_override" "Buttons^3"
 	
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"White"	
+				"image_drawcolor"	"White^3"
+				"image_armedcolor"	"White^3"	
 			}
 		}
 	}
@@ -904,8 +905,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"White^3"
+			"image_armedcolor"	"White^3"
 		}
 		
 		"NotificationCircle"
@@ -943,7 +944,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"White^3"
 			"proportionaltoparent"	"1"
 		}
 	
@@ -978,13 +979,13 @@
 			"border_armed"		"NoBorder"
 			"paintbackground" "1"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "Buttons^3"
 
-			"image_drawcolor"	"White"
-			"image_armedcolor"	"White"
+			"image_drawcolor"	"White^3"
+			"image_armedcolor"	"White^3"
 		}
 	}
 	
@@ -1013,7 +1014,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
 			"xpos"			"186"
-			"ypos"			"8"
+			"ypos"			"6"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -1070,7 +1071,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"White^3"
 			"wrap"			"1"
 		}
 		
@@ -1145,7 +1146,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"White"
+					"fgcolor_override"	"White^3"
 				}
 			}
 		}
@@ -1255,9 +1256,9 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
+			"depressedFgColor_override" "White^3"
 		}
 	}
 	"SteamButton"
@@ -1300,9 +1301,9 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
+			"depressedFgColor_override" "White^3"
 		}
 	}
 	"InfoButton"
@@ -1348,7 +1349,7 @@
 			"armedBgColor_override"   "Blank"
 			"depressedBgColor_override" "Blank"
 
-			"defaultFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
 			"armedFgColor_override"   "192 192 192 255"
 		}
 	}
@@ -1455,7 +1456,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
 		"image_drawcolor"	"130 130 130 255"
-		"image_armedcolor"	"White"
+		"image_armedcolor"	"White^3"
 	
 	}
 
@@ -1464,7 +1465,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"1"
 		"zpos"			"-99"
 		"wide"			"150"
 		"tall"			"100"
@@ -1473,48 +1474,16 @@
 		"mouseinputenabled"	"0"
 		"centerwrap"			"1"
 		"textinsetx"	"40"
-		"textinsety"	"10"
 
-		"font"			"HudFontSmallestBold"
-		"fgcolor_override"	"200 80 60 255"
+		"font"			"Evo Sans 10"
+		"fgcolor_override"	"Health Low 1"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"textAlignment"	"center"
 		"use_proportional_insets"	"1"
 		
 		"pin_to_sibling"			"RankPanel"
-		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-	}
-	"NoGCImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"NoGCImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-99"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
-	}	
-
-	"RankBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RankBorder"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-100"
-		"wide"			"260"
-		"tall"			"60"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
-		"bgcolor_override"	"15 15 15 215"
-		"proportionaltoparent"	"1"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"CompetitiveAccessInfoPanel"
@@ -1617,15 +1586,15 @@
 			"border_armed"		"NoBorder"
 			"paintbackground" "1"
 
-			"defaultFgColor_override" "White"
-			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
+			"depressedFgColor_override" "White^3"
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 	
 			"image_drawcolor"	"160 160 160 255"
-			"image_armedcolor"	"White"	
+			"image_armedcolor"	"White^3"	
 		}
 	}
 	//In Game Buttons (again since mmdashboard is being dumb)
@@ -1671,7 +1640,7 @@
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 			
-			"defaultFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
 		}
 	}
 	"MutePlayersButton"
@@ -1717,7 +1686,7 @@
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 			
-			"defaultFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
 		}
 	}
 	"ReportPlayerButton"
@@ -1767,7 +1736,7 @@
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 			
-			"defaultFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
 		}
 	}
 	"InvisPlayersButton"
@@ -1812,7 +1781,26 @@
 			"armedBgColor_override"   "Buttons^3"
 			"depressedBgColor_override" "Buttons^3"
 			
-			"defaultFgColor_override" "White"
+			"defaultFgColor_override" "White^3"
 		}
+	}
+	
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+	}	
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 	}
 }

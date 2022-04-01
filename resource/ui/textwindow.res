@@ -23,7 +23,8 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"	"TransparentBlack"
+		"bgcolor_override"	"Black^3"
+		"alpha"			"128"
 	}
 	
 	"TFMessageTitle"
@@ -44,7 +45,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Evo Sans Bold 30"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}
 
 	"TFTextMessage"
@@ -63,7 +64,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White^3"
 	}
 
 	"HTMLMessage"
@@ -103,6 +104,7 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"Evo Sans Bold 16"
+		"fgcolor"		"White^3"
 	}
 	
 	"MessageTitle"

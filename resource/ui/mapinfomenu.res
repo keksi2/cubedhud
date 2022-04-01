@@ -31,7 +31,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"Evo Sans Bold 36"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}
 	
 	"MapInfoType"
@@ -50,7 +50,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"font"			"Evo Sans 16"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White^3"
 	}	
 
 	"MapInfoContinue"
@@ -73,7 +73,7 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"Evo Sans Bold 16"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}
 	"MapInfoWatchIntro"
 	{
@@ -95,7 +95,7 @@
 		"command"		"intro"
 		"default"		"1"
 		"font"			"Evo Sans Bold 16"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}
 	"MapInfoBack"
 	{
@@ -116,7 +116,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"font"			"Evo Sans Bold 16"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 	}
 	
 	"MapImage"

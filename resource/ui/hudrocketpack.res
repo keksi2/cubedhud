@@ -6,24 +6,14 @@
 		"fieldName"		"ItemEffectMeterLabel"
 		"labelText"		"#TF_RocketPack_Disabled"
 	}
-
 	"ItemEffectMeter"
-	{	
-		"ControlName"	"ContinuousProgressBar"
+	{
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"81"
 		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"Left"
-		"fgcolor"		"White"
-		"bgcolor_override"	"MeterBG"
 	}
-
 	"ItemEffectMeter2"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -37,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"fgcolor"		"White"
+		"fgcolor"		"White^3"
 		"bgcolor_override"	"MeterBG"
 	}
 }

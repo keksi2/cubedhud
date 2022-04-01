@@ -144,7 +144,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Tommy Medium 24"
-			"fgcolor"		"White"
+			"fgcolor"		"White^3"
 			"xpos"			"17"
 			"ypos"			"0"
 			"zpos"			"3"
