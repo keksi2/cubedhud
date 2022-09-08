@@ -1,4 +1,4 @@
-# hud^3^ (beta)
+# hud³ (beta)
 
 ### created by Lilac
 **based on [sammyhud✿](https://huds.tf/site/s-sammyhud%E2%9C%BF "HUDS.TF") and [JofreHUD](https://huds.tf/site/s-JofreHUD "HUDS.TF")**
