@@ -70,21 +70,6 @@
 
 			"image_drawcolor"	"White^3"
 			"image_armedcolor"	"White^3"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"replay/thumbnails/buttons/chat"
-			}
 		}
 		"PartySlot0"
 		{
@@ -277,7 +262,7 @@
 				"radius"		"9"
 				"velocity"		"100"
 
-				"fgcolor_override"	"Generic^3"
+				"fgcolor_override"	"Generic^3" // doesnt work :(
 			}
 			"QueueText"
 			{
@@ -301,15 +286,15 @@
 				{
 					"0"
 					{
-						"font"	"Evo Sans 12" // TF2 Build 11
+						"font"	"Evo Sans 12"
 					}
 					"1"
 					{
-						"font"	"Evo Sans 10" // TF2 Build 10
+						"font"	"Evo Sans 10"
 					}
 					"2"
 					{
-						"font"	"Evo Sans 8" // TF2 Build 9
+						"font"	"Evo Sans 8"
 					}
 				}
 			}
@@ -395,21 +380,7 @@
 				"armedFgColor_override"		"211 78 78 255"
 
 				"image_drawcolor"	"White^3"
-				"image_armedcolor"	"White^3"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"9999"
-					"ypos"			"0"
-					"wide"			"0"
-					"tall"			"0"
-					"visible"		"0"
-					"enabled"		"0"
-					"scaleImage"	"0"
-					"image"			"replay/thumbnails/button/x_icon"
-					"proportionaltoparent"	"0"
-				}		
+				"image_armedcolor"	"White^3"	
 			}		
 		}
 		"JoinPartyLobbyContainer"

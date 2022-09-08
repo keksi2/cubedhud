@@ -10,14 +10,14 @@
 		// "visible" "1" = Enabled  "visible" "0" = Disabled
 		//=========================================================================
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor" "HUD Crosshair"
+		"visible"	"0"																																																																									"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor" "HUD Crosshair"
 		
 		//=========================================================================
 		// CROSSHAIR TYPE
 		//-------------------------------------------------------------------------
 		// The "labelText" can be changed to display different types of crosshairs
 		// each alphabet letter / symbol represents a different crosshair
-		// Checkout the different options in the TF2Crosshairs.png
+		// Checkout the different options in the Crosshairs.png
 		//=========================================================================
 		
 		"labelText"	""
@@ -45,16 +45,16 @@
 	
 	CustomHitMarker
 	{
-		//=========================================================================
+		//==========================================================================
 		// Same rules apply here, but this will only show up after hitting a player
-		//=========================================================================
+		//==========================================================================
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomHitMarker" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor" "Blank"
-		
+		"visible"	"0"																																																																									"controlName" "CExLabel" "fieldName" "CustomHitMarker" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor" "Blank"
+		//-------------
 		"labelText"	""
-		
+		//---------------------------------
 		"font"		"Size:18 | Outline:OFF"
-		
+		//---------------------------------
 		"xpos"		"cs-0.4999"
 		"ypos"		"cs-0.4990"
 	}

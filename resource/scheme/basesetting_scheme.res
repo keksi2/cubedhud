@@ -8,52 +8,51 @@ Scheme
 		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
 		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
-		ReplayBrowser.Warning.FgColor						"White"
+		ReplayBrowser.Warning.FgColor						"White^3"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
-		ReplayBrowser.Search.BgColor						"TanDark"
-		ReplayBrowser.Search.FgColor						"White"
+		ReplayBrowser.Search.BgColor						"Gray^3"
+		ReplayBrowser.Search.FgColor						"White^3"
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.BgColor									"Blank"
+		Econ.Button.FgColor									"White^3"
+		Econ.Button.ArmedBgColor							"Blank"
+		Econ.Button.ArmedFgColor							"Buttons^3"
+		Econ.Button.DepressedBgColor						"Blank"
+		Econ.Button.DepressedFgColor						"Buttons^3"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
-		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorFg					"Buttons^3"
+		Econ.Button.PresetArmedColorFg						"Buttons^3"
+		Econ.Button.PresetDepressedColorFg					"White^3"
+		Econ.Button.PresetDefaultColorBg					"Blank"
+		Econ.Button.PresetArmedColorBg						"Blank"
+		Econ.Button.PresetDepressedColorBg					"Blank"
 		
 		Border.Bright					"Blank"		// the lit side of a control
-		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
+		Border.Dark						"Black^3"		// the dark/unlit side of a control
+		Border.Selection				"Gray^3"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"White"
+		Button.TextColor				"White^3"
 		Button.BgColor					"Blank"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Generic^3"
-		Button.SelectedTextColor		"White"
-		Button.SelectedBgColor			"Generic^3"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"Generic^3"
+		Button.ArmedTextColor			"Buttons^3"
+		Button.ArmedBgColor				"Blank"
+		Button.SelectedTextColor		"White^3"
+		Button.SelectedBgColor			"Blank"
+		Button.DepressedTextColor		"White^3"
+		Button.DepressedBgColor			"Blank"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.TextColor			"White^3"
+		CheckButton.SelectedTextColor	"White^3"
+		CheckButton.BgColor				"Black^3"
+		CheckButton.Border1  			"White^3" 		// the left checkbutton border
+		CheckButton.Border2  			"White^3"		// the right checkbutton border
+		CheckButton.Check				"White^3"		// color of the check itself
+		CheckButton.HighlightFgColor	"White^3"
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		ComboBoxButton.ArrowColor		"White^3"
+		ComboBoxButton.ArmedArrowColor	"White^3"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -82,30 +81,30 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
-		Label.SelectedTextColor			"White"
+		Label.TextDullColor				"Gray^3"
+		Label.TextColor					"White^3"
+		Label.TextBrightColor			"White^3"
+		Label.SelectedTextColor			"White^3"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
-		Label.DisabledFgColor2			"Black"
+		Label.DisabledFgColor2			"Black^3"
 
 		ListPanel.TextColor					"Orange"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
+		ListPanel.SelectedTextColor			"Black^3"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.TextColor					"White^3"
+		Menu.BgColor					"Black^3"
+		Menu.ArmedTextColor				"White^3"
+		Menu.ArmedBgColor				"Buttons^3"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
 
-		Panel.FgColor					"Gray"
+		Panel.FgColor					"Gray^3"
 		Panel.BgColor					"Blank"
 
 		HTML.BgColor					"Blank"
@@ -113,8 +112,8 @@ Scheme
 		ProgressBar.FgColor				"ProgressOffWhite"
 		ProgressBar.BgColor				"ProgressBackground"
 
-		CircularProgressBar.FgColor		"White"
-		CircularProgressBar.BgColor		"White"
+		CircularProgressBar.FgColor		"White^3"
+		CircularProgressBar.BgColor		"White^3"
 		
 		"BuildingHealthBar.BgColor"		"HealthBgGrey"
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
@@ -127,30 +126,25 @@ Scheme
 		RadioButton.TextColor			"Orange"
 		RadioButton.SelectedTextColor	"Orange"
 
-		RichText.TextColor				"Gray"
-		RichText.BgColor				"Blank"
-		RichText.SelectedTextColor		"Gray"
-		RichText.SelectedBgColor		"Red"
-
-		ScrollBarButton.FgColor				"Gray"
+		ScrollBarButton.FgColor				"Gray^3"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"Gray"
+		ScrollBarButton.ArmedFgColor		"Gray^3"
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"Black"
+		ScrollBarButton.DepressedFgColor	"Black^3"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Gray"		// nob color
+		ScrollBarSlider.FgColor				"Gray^3"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
 		SectionedListPanel.HeaderTextColor	"Orange"
 		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.DividerColor		"Black^3"
 		SectionedListPanel.TextColor		"Orange"
 		SectionedListPanel.BrightTextColor	"Orange"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
+		SectionedListPanel.SelectedTextColor			"Black^3"
 		SectionedListPanel.SelectedBgColor				"Red"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"Black^3"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
 		Slider.NobColor				"108 108 108 255"
@@ -159,13 +153,13 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"Gray"
+		TextEntry.TextColor			"Gray^3"
 		TextEntry.BgColor			"Blank"
-		TextEntry.CursorColor		"Gray"
-		TextEntry.DisabledTextColor	"Gray"
+		TextEntry.CursorColor		"Gray^3"
+		TextEntry.DisabledTextColor	"Gray^3"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"TanLight"
-		TextEntry.SelectedBgColor	"Gray"
+		TextEntry.SelectedTextColor	"White^3"
+		TextEntry.SelectedBgColor	"Gray^3"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
@@ -203,12 +197,22 @@ Scheme
 		"TeamRed"			"255 64 64 255"
 		"TeamBlue"			"153 204 255 255"
 
-		"MapDescriptionText"	"Gray" // the text used in the map description window
+		"MapDescriptionText"	"Gray^3" // the text used in the map description window
 		"HudIcon_Green"		"0 160 0 255"
 		"HudIcon_Red"		"160 0 0 255"
+		
+		// Customizable "Hardcoded" Panels
+		"HUDBlueTeamSolid"		"Generic^3"
+		"HUDRedTeamSolid"		"Generic^3"
+		"PartyMember1"			"Generic^3"
+		"PartyMember2"			"Generic^3"
+		"PartyMember3"			"Generic^3"
+		"PartyMember4"			"Generic^3"
+		"PartyMember5"			"Generic^3"
+		"PartyMember6"			"Generic^3"
 
 		// CHudMenu
-		"ItemColor"		"Item Color"	// default 255 167 42 255
+		"ItemColor"		"Generic^3"
 		"MenuColor"		"Menu Color"
 		"MenuBoxBg"		"Menu Box BG"
 

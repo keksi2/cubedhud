@@ -110,10 +110,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"Evo Sans Bold 14"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"White^3"
 			"textAlignment"	"center"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
+			"centerwrap"	"1"
 
 			if_mini
 			{
@@ -126,17 +127,18 @@
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"			"117"
-			"ypos"			"20"
+			"ypos"			"24"
 			"wide"			"116"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"Evo Sans 11"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"center"
+			"fgcolor_override"	"White^3"
+			"textAlignment"	"north"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+			"centerwrap"	"1"
 
 			if_mini
 			{
@@ -153,8 +155,8 @@
 
 			"colors"
 			{
-				"1"		"CreditsGreen"
-				"2"		"TanLight"
+				"1"		"Generic^3"
+				"2"		"White^3"
 			}
 		}
 
@@ -209,8 +211,8 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"0 0 0 0"
-						"bgcolor_override"	"0 0 0 0"
+						"fgcolor_override"	"Blank"
+						"bgcolor_override"	"Blank"
 					}
 
 					"ContinuousProgressBar"
@@ -275,7 +277,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White^3"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
@@ -293,7 +295,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White^3"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
@@ -311,7 +313,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White^3"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
@@ -330,7 +332,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White^3"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
@@ -348,7 +350,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White^3"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
@@ -366,7 +368,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White^3"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
@@ -385,7 +387,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"White^3"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"

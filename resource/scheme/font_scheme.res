@@ -30,6 +30,15 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Evo Sans Bold 13"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit Bold"
+				"tall"			"13"
+				"antialias"		"1"
+			}
+		}
 		"Evo Sans Bold 14"
 		{
 			"1"
@@ -371,6 +380,33 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Evo Sans 20"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit"
+				"tall"			"20"
+				"antialias"		"1"
+			}
+		}
+		"Evo Sans 22"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit"
+				"tall"			"22"
+				"antialias"		"1"
+			}
+		}
+		"Evo Sans 24"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit"
+				"tall"			"24"
+				"antialias"		"1"
+			}
+		}
 		// MADE Evolve Sans Edit Blur
 		"Evo Sans Blur 8"
 		{
@@ -408,6 +444,26 @@ Scheme
 			{
 				"name"			"MADE Evolve Sans Edit"
 				"tall"			"14"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Blur 16"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit"
+				"tall"			"16"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"Evo Sans Blur 18"
+		{
+			"1"
+			{
+				"name"			"MADE Evolve Sans Edit"
+				"tall"			"18"
 				"antialias"		"1"
 				"blur"			"1"
 			}
@@ -849,15 +905,14 @@ Scheme
 				"blur"			"1"
 			}
 		}
-		// Über Percentage Font
-		"Über Percentage"
+		// TargetID Data Label Font
+		"Data Label"
 		{
 			"1"
 			{
-				"name"			"MADETOMMY-Medium"
-				"tall"			"34"
+				"name"			"NumbersOnly"
+				"tall"			"12"
 				"antialias"		"1"
-				"dropshadow"	"1"
 			}
 		}
 	}

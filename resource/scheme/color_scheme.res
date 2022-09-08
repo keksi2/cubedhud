@@ -20,13 +20,6 @@ Scheme
 		"QuestMap_ActiveOrange"	"212 127 25 255"
 		"QuestMap_InactiveGrey"	"100 100 100 255"
 		"QuestMap_BGImages"	"56 58 60 255"
-
-		"PartyMember1"	"124 173 255 255"
-		"PartyMember2"	"99  232 167 255"
-		"PartyMember3"	"229 255 121 255"
-		"PartyMember4"	"232 184 99  255"
-		"PartyMember5"	"255 118 108 255"
-		"PartyMember6"	"255 133 255 255"
 		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
@@ -44,8 +37,6 @@ Scheme
 		"HUDBlueTeam"		"104 124 155 127"
 		"HUDRedTeam"		"180 92 77 127"
 		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
@@ -57,9 +48,6 @@ Scheme
 		"Gray"				"178 178 178 255"
 
 		"Blank"				"0 0 0 0"
-		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 0 255 255"
-		"ForTesting_MagentaDim"	"255 0 255 120"
 
 		"HudPanelForeground"		"123 110 59 184"
 		"HudPanelBackground"		"123 110 59 184"
@@ -77,7 +65,7 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"0 0 0 0"
+		"TanDark"				"64 64 64 255"
 		"TanLight"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
@@ -126,14 +114,14 @@ Scheme
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"204 204 250 255"
-		"QualityColorrarity4"					"134 80 172 255"
+		"QualityColorrarity4"					"134 80 172 255" // Unusual
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
 		"QualityColorCommunity"					"112 176 74 255"
 		"QualityColorDeveloper"					"165 15 121 255"
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorStrange"					"255 89 0 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"				"170 0 0 255"
@@ -189,5 +177,11 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		// HUD Editing Colors
+		"Test 1"				"0 255 0 100"
+		"Test 2"				"255 0 0 100"
+		"Test 3"				"0 0 255 100"
+		"Blank 2"				"0 0 0 0"
 	}
 }

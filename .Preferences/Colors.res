@@ -1,9 +1,8 @@
 // |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|
 // | THE VALUES ARE			 |
-// | "RED GREEN BLUE ALPHA." |
+// | "RED GREEN BLUE ALPHA"  |
 // | 						 |
-// | USE COLOR PICKERS		 |
-// | AS MUCH AS POSSIBLE!	 |
+// | USE COLOR PICKERS!		 |
 // | 						 |
 // | DON'T TOUCH THE ALPHA	 |
 // | UNLESS YOU KNOW WHAT	 |
@@ -21,8 +20,8 @@ Scheme
 		// ==========================================
 		
 		"Health Number"				"250 248 246 255"
-		"Health Overhealed 1"		"81 232 156 255" // Overheal pulsing animation
-		"Health Overhealed 2"		"72 214 131 75"
+		"Health Overhealed 1"		"220 208 255 255" // Overheal pulsing animation
+		"Health Overhealed 2"		"212 192 242 75"
 		"Health Low 1"				"219 81 81 255" // Low health pulsing animation
 		"Health Low 2"				"222 98 98 255"
 		
@@ -30,7 +29,7 @@ Scheme
 		// ==========================================
 		
 		"Ammo in Clip"				"250 248 246 255"
-		"Ammo in Reserve"			"81 232 156 255"
+		"Ammo in Reserve"			"220 208 255 255"
 		"Ammo No Clip"				"250 248 246 255"
 		"Ammo Low 1"				"219 81 81 255" // Low ammo pulsing animation
 		"Ammo Low 2"				"222 98 98 255"
@@ -41,27 +40,27 @@ Scheme
 		"Über Percentage"			"250 248 246 255"
 		"Tiny Über Percentage"		"255 255 255 128" // See "Tiny Uber Percentage.res" for more details
 		"Über Meter"				"250 248 246 255"
-		"Fully Charged 1"			"81 232 156 255" // Fully charged pulsing animation
-		"Fully Charged 2"			"72 214 131 75"
+		"Fully Charged 1"			"220 208 255 255" // Fully charged pulsing animation
+		"Fully Charged 2"			"212 192 242 75"
 		
 		// Misc
 		// ==========================================
 		
-		"Damage Numbers"			"255 255 0 128" // Negative color
-		"Healing Numbers"			"81 232 156 128" // Positive color
+		"Damage Numbers"			"220 208 255 128" // Negative color
+		"Healing Numbers"			"220 208 255 128" // Positive color
 		"Metal Count"				"250 248 246 128"
 		"Number of Stickies"		"250 248 246 255"
 		"MeterBG"					"0 0 0 100" // Recharge meter background
 		"Death Notice BG"			"200 200 200 255" // Killfeed background when you get a kill
 		
-		"Number of Kills"			"81 232 156 255" // Number of kills on scoreboard
+		"Number of Kills"			"220 208 255 255" // Number of kills on scoreboard
 		"Number of Deaths"			"253 253 150 255" // Number of deaths on scoreboard
 		"Number of Assists"			"167 199 231 255" // Number of assists on scoreboard
 		
-		"HUD Crosshair"				"81 232 156 255" // See "Crosshair.res" for more details (these are my preferred crosshair/hitmarker colors, feel free to change them)
+		"HUD Crosshair"				"220 208 255 255" // See "Crosshair.res" for more details (these are my preferred crosshair/hitmarker colors, feel free to change them)
 		"Hitmarker Hit"				"255 255 0 255" // Flash animation color for Hitmarker and Crosshair
 		
-		// CHudMenu (Voice Menu)
+		// CHudMenu (Voice Command Menu)
 		// ==========================================
 		"Menu Color"				"250 248 246 255" // Normal text
 		"Menu Box BG"				"0 0 0 100" // background
@@ -69,8 +68,8 @@ Scheme
 		// hud^3 specific colors
 		// ==========================================
 		
-		"Buttons^3"					"154 206 196 196" // Main menu buttons background
-		"Generic^3"					"26 216 115 255" // Generic color used in lots of things
+		"Buttons^3"					"212 192 242 225" // Button color
+		"Generic^3"					"212 192 242 255" // Generic color used in lots of things
 		
 		"White^3"					"250 248 246 255"
 		"Black^3"					"0 0 0 255"

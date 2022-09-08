@@ -87,7 +87,7 @@
 			"visible"	"1"
 		}
 	}
-	"FullMoonPanel" // CHANGE THIS! MOON LOOKS UGLY!
+	"FullMoonPanel"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FullMoonPanel"
@@ -1013,8 +1013,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
-			"xpos"			"186"
-			"ypos"			"6"
+			"xpos"			"183"
+			"ypos"			"7" // revert to 6 if bad
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -1023,37 +1023,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
+			"labeltext"		"x"
 			"textAlignment"	"center"
+			"font"			"Icons 16"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
+
+			"defaultFgColor_override"	"White^3"
+			"armedFgColor_override"		"211 78 78 255"
 
 			"Command"		"noti_hide"
 			"navActivate"	"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"	"0"
-			
-			"image_drawcolor"	"220 220 220 255"
-			"image_armedcolor"	"162 0 0 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/button/x_icon"
-				"scaleImage"	"1"
-			}				
+			"paintbackground"	"0"			
 		}		
 	
 		"Notifications_TitleLabel"
@@ -1103,32 +1089,33 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
+		"xpos"			"1"
+		"ypos"			"cs-0.5"
 		"zpos"			"5"
-		"wide"			"260"
-		"tall"			"200"
+		"wide"			"22"
+		"tall"			"210"
 
 		"SteamFriendsList"
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"0"
-			"ypos"			"rs1-10"
+			"ypos"			"0"
 			"zpos"			"500"
-			"wide"			"128"
-			"tall"			"190"
+			"wide"			"22"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
 			"columns_count"	"1"
-			"inset_x"		"10"
-			"inset_y"		"5"
-			"row_gap"		"5"
-			"column_gap"	"10"
+			"inset_x"		"0"
+			"inset_y"		"0"
+			"row_gap"		"1"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
-				"wide"		"110"
+				"wide"		"20"
 				"tall"		"20"
 			}
 
@@ -1137,35 +1124,19 @@
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
 				"xpos"			"rs1"
-				"ypos"			"0"
-				"wide"			"5"
-				"tall"			"f0"
+				"ypos"			"-5"
+				"wide"			"2"
+				"tall"			"f-10"
 				"zpos"			"1000"
-				"nobuttons"		"1"
+				"nobuttons"		"0"
 				"proportionaltoparent"	"1"
 
 				"Slider"
 				{
-					"fgcolor_override"	"White^3"
+					"fgcolor_override"	"Generic^3"
+					"alpha"				"150"
 				}
 			}
-		}
-
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"0"
-			"ypos"			"rs1-10"
-			"zpos"			"499"
-			"wide"			"127"
-			"tall"			"190"
-			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"bgcolor_override"	"0 0 0 100"
 		}
 	}
 	
@@ -1243,7 +1214,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"hud³"
-			"urlText"		"https://huds.tf/"
+			"urlText"		"https://github.com/keksi2/cubedhud/"
 			"font"			"Evo Sans Bold 18"
 			"textAlignment"	"west"
 			"textinsetx"	"0"
@@ -1431,6 +1402,7 @@
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"r128"
 		"ypos"			"r57"
+		"zpos"			"-51"
 		"wide"			"150"
 		"tall"			"100"
 		"autoResize"	"0"
@@ -1641,6 +1613,7 @@
 			"depressedBgColor_override" "Buttons^3"
 			
 			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
 		}
 	}
 	"MutePlayersButton"
@@ -1687,6 +1660,7 @@
 			"depressedBgColor_override" "Buttons^3"
 			
 			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
 		}
 	}
 	"ReportPlayerButton"
@@ -1737,6 +1711,7 @@
 			"depressedBgColor_override" "Buttons^3"
 			
 			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
 		}
 	}
 	"InvisPlayersButton"
@@ -1782,6 +1757,7 @@
 			"depressedBgColor_override" "Buttons^3"
 			
 			"defaultFgColor_override" "White^3"
+			"armedFgColor_override"   "White^3"
 		}
 	}
 	

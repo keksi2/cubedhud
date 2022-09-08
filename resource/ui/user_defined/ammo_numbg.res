@@ -24,7 +24,7 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"Tommy Medium Blur 34"
 		"fgcolor"		"Black^3"
-		"xpos"			"1"
+		"xpos"			"9999" // 1
 		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"50"
@@ -68,7 +68,7 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"Tommy Medium Blur 20"
 		"fgcolor"		"Black^3"
-		"xpos"			"1"
+		"xpos"			"9999" // 1
 		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"40"
@@ -106,7 +106,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Tommy Medium Blur 34"
 		"fgcolor"		"Black^3"
-		"xpos"			"1"
+		"xpos"			"9999" // 1
 		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"90"

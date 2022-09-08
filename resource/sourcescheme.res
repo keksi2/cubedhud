@@ -10,10 +10,11 @@ Scheme
 	    "TFTanBright"               "255 255 255 255" // original was "236 227 203 150"
 	    "TFTanLight"                "0 0 0 128" // original was "201 188 162 150"
 	    "TFTanMedium"               "131 121 104 150"
+		"Orange"					"255 155 0 255"
 	    
 	    "TFTanLightDark"            "0 0 0 0" // original was "96 90 78 90"
 	    
-	    "TFOrangeBright"            "26 216 115 255" // original was "156 82 33 255"
+	    "TFOrangeBright"            "212 192 242 255" // original was "156 82 33 255"
 	    
 	    "TFTextBright"              "255 255 255 255" // original was "251 236 203 150"
 	    "TFTextMedium"              "150 150 150 255" // original was "131 121 104 255"
@@ -94,7 +95,7 @@ Scheme
 		Menu.FgColor			"TFTextLight"
 		Menu.BgColor			"ListBG"
 		Menu.ArmedFgColor		"TFTextBright"
-		Menu.ArmedBgColor		"TFOrangeBright"
+		Menu.ArmedBgColor		"Generic^3"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"TFTanBright"
@@ -114,12 +115,15 @@ Scheme
         Slider.DisabledTextColor2	"Blank"
 		
 		Console.TextColor			"Generic^3"
-		Console.DevTextColor		"White"
+		Console.DevTextColor		"White^3"
 		Console.SelectedTextColor   "Generic^3"
+		RichText.TextColor				"White^3"
+		RichText.SelectedTextColor		"Black^3"
+		RichText.SelectedBgColor		"Generic^3"
 		
 		TextEntry.TextColor			        "TFTextBright"
 		TextEntry.DisabledTextColor	        "TFTextMedium"
-		TextEntry.SelectedBgColor	        "TFOrangeBright"
+		TextEntry.SelectedBgColor	        "Generic^3"
 	}
 	
 	Fonts
@@ -156,7 +160,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
+				"name"		"MADE Evolve Sans Edit Bold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -164,7 +168,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Lucida Console"
+				"name"		"MADE Evolve Sans Edit Bold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -172,7 +176,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Lucida Console"
+				"name"		"MADE Evolve Sans Edit Bold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -181,7 +185,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Lucida Console"
+				"name"		"MADE Evolve Sans Edit Bold"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -190,11 +194,20 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Lucida Console"
+				"name"		"MADE Evolve Sans Edit Bold"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		"LoadingDialogText"
+		{
+			"1"
+			{
+				"name"		"MADE Evolve Sans Edit Bold"
+				"tall"		"32"
 				"antialias"	"1"
 			}
 		}

@@ -17,26 +17,26 @@
 		"fgcolor"		"Health Number"
 		
 	}
-	"PlayerStatusHealthValueDS"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueDS"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"zpos"			"5"
-		"wide"			"90"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"east"	
-		"font"			"Tommy Medium Blur 34"
-		"fgcolor"		"Black^3"
+	//"PlayerStatusHealthValueDS"
+	//{
+		//"ControlName"	"CExLabel"
+		//"fieldName"		"PlayerStatusHealthValueDS"
+		//"xpos"			"1"
+		//"ypos"			"-1"
+		//"zpos"			"5"
+		//"wide"			"90"
+		//"tall"			"50"
+		//"visible"		"1"
+		//"enabled"		"1"
+		//"labelText"		"%Health%"
+		//"textAlignment"	"east"	
+		//"font"			"Tommy Medium Blur 34"
+		//"fgcolor"		"Black^3"
 
-		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"	"1"
-        "pin_to_sibling_corner"	"1"
-	}
+		//"pin_to_sibling"	"PlayerStatusHealthValue"
+		//"pin_corner_to_sibling"	"1"
+        //"pin_to_sibling_corner"	"1"
+	//}
 	
 	"PlayerStatusHealthImage"
 	{

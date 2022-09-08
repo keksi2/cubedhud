@@ -83,7 +83,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"7"
+		"wide"			"10"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -94,7 +94,7 @@
 		"wrap"			"0"
 		"font"			"Tommy Medium 8"
 	}
-				
+
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
@@ -102,7 +102,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"42"
+		"wide"			"29"
 		"tall"			"21"
 		"visible"		"0"
 		"enabled"		"1"

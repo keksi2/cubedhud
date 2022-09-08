@@ -101,11 +101,15 @@
 				"brighttext"	"0"
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_Rejoin_Abandon"
+				"labeltext"		"Abandon" // Changed to support econ/confirmabandonpenalty & econ/confirmabandonnopenalty
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 				"paintbackground"	"1"
+				
+				"armedFgColor_override"		"White^3"
+				"armedBgColor_override"		"Buttons^3"
+				"defaultBgColor_override"	"0 0 0 100"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -143,8 +147,9 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"armedFgColor_override"		"White^3"
+				"armedBgColor_override"		"Buttons^3"
+				"defaultBgColor_override"	"0 0 0 100"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -175,8 +180,9 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"armedFgColor_override"		"White^3"
+				"armedBgColor_override"		"Buttons^3"
+				"defaultBgColor_override"	"0 0 0 100"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"

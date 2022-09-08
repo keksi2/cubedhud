@@ -15,7 +15,7 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"Tommy Medium 20"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.1"
+		"ypos"			"rs1-5"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"
@@ -27,40 +27,8 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
-
-		if_readymode
-		{
-			"ypos"			"130"
-		}
+		"fgcolor"		"White^3"
 	}
-	
-	"CountdownLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"Tommy Medium Blur 20"
-		"xpos"			"cs-0.49"
-		"ypos"			"cs-0.09"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"4"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%countdown%"
-		"textAlignment"	"center"
-		"fgcolor"		"Black"
-		"proportionaltoparent"	"1"
-
-	
-		if_readymode
-		{
-			"ypos"			"130"
-		}
-	}	
 
 	"RoundCounter"
 	{
@@ -94,7 +62,7 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White^3"
 	}
 
 	"RankUpShadowLabel"
@@ -117,14 +85,14 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"Black^3"
 	}
-
+	
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"5"
+		"xpos"				"14"
 		"ypos"				"-5"
 		"zpos"				"2"
 		"wide"				"f0"
@@ -155,22 +123,6 @@
 			"textAlignment"		"west"
 			"labelText"		"0:00"
 		}
-		"TimerIconOTP"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"TimerIconOTP"
-			"font"			"Icons 16"
-			"fgcolor"		"Generic^3"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"55"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"		"west"
-			"labelText"		"t"
-		}
 	}
 	"TeamStatus"
 	{
@@ -183,7 +135,6 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-
 
 		"max_size"	"35"
 
@@ -232,7 +183,7 @@
 				"visible"							"1"
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
-				"font"								"Evo Sans Dropshadow 8"
+				"font"								"Evo Sans 8"
 				"textAlignment"						"center"
 				"bgcolor_override"					"0 0 0 100"
 				"proportionaltoparent"				"1"
@@ -414,6 +365,7 @@
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
 			}
+			
 			"DeathPanel"
 			{
 				"ControlName"	"ImagePanel"

@@ -109,26 +109,6 @@
 			"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 			"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 		}
-		"FreezeKillerLabelDS"
-		{	
-			"ControlName"	"Label"
-			"fieldName"		"FreezeLabelKillerDS"
-			"font"			"Evo Sans Blur 18"
-			"xpos"			"1"
-			"ypos"			"-1"
-			"zpos"			"4"
-			"wide"			"f0"
-			"tall"			"18"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%killername%"
-			"textAlignment"		"center"
-			"fgcolor_override"	"Black^3"
-		
-			"pin_to_sibling"	"FreezeKillerLabel"
-			"pin_corner_to_sibling"	"1"
-			"pin_to_sibling_corner"	"1"
-		}
 
 		"AvatarImage"
 		{

@@ -215,10 +215,10 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"r180"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"xpos"		"cs-0.5"
+		"ypos"		"r120"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"40"
 	}
 	CSecondaryTargetID
@@ -226,10 +226,10 @@
 		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"r120"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"xpos"		"cs-0.5"
+		"ypos"		"r188"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"35"
 	}
 	CSpectatorTargetID
@@ -237,10 +237,10 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
+		"xpos"		"cs-0.5"
 		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"wide"	 	"f0"
+		"tall"	 	"50"
 		"priority"	"40"
 	}
 	
@@ -357,10 +357,19 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	HudDamageIndicator
-	{
-
-	}
+	"HudDamageIndicator"
+    {
+        "fieldName"				"HudDamageIndicator"
+        "visible"				"1"
+        "enabled"				"1"
+        "MinimumWidth"			"8"
+        "MaximumWidth"			"8"
+        "StartRadius"			"35"
+        "EndRadius"				"35"
+        "MinimumHeight"			"40"
+        "MaximumHeight"			"40"
+        "MinimumTime"			"1" 
+    }
 
 	HudCommentary
 	{
@@ -525,25 +534,22 @@
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
 	}
-	
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"xpos"		"cs-0.5"
+		"ypos"		"20"
+		"wide"		"96"
+		"tall"		"136"
+		"alpha"		"128"
 
 		"BgAlpha"	"0"
-
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
+		"GrowTime"		"0"
+		"ItemHiddenTime"	"0"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"	"0"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"	"0.15"
 		"topoffset"		"0"
 	}
 
@@ -711,7 +717,7 @@
 		"text_ypos"				"8"
 		"center_x"				"0"	// center text horizontally
 		"center_y"				"-1"	// align text on the bottom
-	}	
+	}	 
 
 	HudHintKeyDisplay
 	{
@@ -950,31 +956,6 @@
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
-	}	
-
-	HudTeamGoal
-	{
-		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"100"
-	}
-
-
-	HudTeamGoalTournament
-	{
-		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"300"
 	}
 
 	HudTeamSwitch
@@ -1382,7 +1363,7 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-
+	
 	HudMatchStatus
 	{
 		"fieldName"				"HudMatchStatus"

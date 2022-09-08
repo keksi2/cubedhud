@@ -181,9 +181,9 @@ Scheme
 		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
-		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
+		TFColors.ChatTextYellow		"White^3" // Not actually yellow, this dictates the generic text color. Really weird.
+		TFColors.ChatTextTeamBlue	"Blue Team^3"
+		TFColors.ChatTextTeamRed	"Red Team^3"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -342,35 +342,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MADE Evolve Sans Edit"
+				"name"		"ChatFont"
 				"tall"		"13"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"MADE Evolve Sans Edit"
+				"name"		"ChatFont"
 				"tall"		"15"
 				"yres"		"600 767"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"MADE Evolve Sans Edit"
+				"name"		"ChatFont"
 				"tall"		"16"
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"MADE Evolve Sans Edit"
+				"name"		"ChatFont"
 				"tall"		"18"
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"MADE Evolve Sans Edit"
+				"name"		"ChatFont"
 				"tall"		"22"
 				"yres"		"1200 10000"
 				"antialias"	"1"
@@ -786,8 +786,8 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"	
 		"3"
 		{
-			"font"  "resource/fonts/MADE Evolve Sans Edit.otf"
-			"name"	"MADE Evolve Sans Edit"
+			"font"  "resource/fonts/ChatFont.otf"
+			"name"	"ChatFont"
 		}
 	}
 }

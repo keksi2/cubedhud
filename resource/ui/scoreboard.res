@@ -48,23 +48,23 @@
 			"wide"				"30"
 			"tall"				"30"
 		}
-		"BlueIconDS"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"BlueIconDS"
-			"font"				"Icons Blur 18"
-			"fgcolor"			"Black^3"
-			"labelText"			"R"
-			"textAlignment"		"center"
-			"xpos"				"1"
-			"ypos"				"-1"
-			"wide"				"30"
-			"tall"				"30"
+		//"BlueIconDS"
+		//{
+			//"ControlName"		"CExLabel"
+			//"fieldName"			"BlueIconDS"
+			//"font"				"Icons Blur 18"
+			//"fgcolor"			"Black^3"
+			//"labelText"			"R"
+			//"textAlignment"		"center"
+			//"xpos"				"1"
+			//"ypos"				"-1"
+			//"wide"				"30"
+			//"tall"				"30"
 		
-			"pin_to_sibling"			"BlueIcon"
-			"pin_corner_to_sibling"		"1"
-			"pin_to_sibling_corner"		"1"
-		}
+			//"pin_to_sibling"			"BlueIcon"
+			//"pin_corner_to_sibling"		"1"
+			//"pin_to_sibling_corner"		"1"
+		//}
 		"RedIcon"
 		{
 			"ControlName"		"CExLabel"
@@ -78,23 +78,23 @@
 			"wide"				"30"
 			"tall"				"30"
 		}
-		"RedIconDS"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"RedIconDS"
-			"font"				"Icons Blur 18"
-			"fgcolor"			"Black^3"
-			"labelText"			"R"
-			"textAlignment"		"center"
-			"xpos"				"1"
-			"ypos"				"-1"
-			"wide"				"30"
-			"tall"				"30"
+		//"RedIconDS"
+		//{
+			//"ControlName"		"CExLabel"
+			//"fieldName"			"RedIconDS"
+			//"font"				"Icons Blur 18"
+			//"fgcolor"			"Black^3"
+			//"labelText"			"R"
+			//"textAlignment"		"center"
+			//"xpos"				"1"
+			//"ypos"				"-1"
+			//"wide"				"30"
+			//"tall"				"30"
 		
-			"pin_to_sibling"			"RedIcon"
-			"pin_corner_to_sibling"		"1"
-			"pin_to_sibling_corner"		"1"
-		}
+			//"pin_to_sibling"			"RedIcon"
+			//"pin_corner_to_sibling"		"1"
+			//"pin_to_sibling_corner"		"1"
+		//}
 		
 		if_mvm
 		{
@@ -122,30 +122,30 @@
 			"visible"		"0"
 		}
 	}
-	"BlueTeamPlayerCountDS"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamPlayerCountDS"
-		"font"			"Tommy Medium Blur 32"
-		"fgcolor"		"Black^3"
-		"labelText"		"%blueteamplayercount%"
-		"textAlignment"		"west"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"wide"			"324"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
+	//"BlueTeamPlayerCountDS"
+	//{
+		//"ControlName"		"CExLabel"
+		//"fieldName"		"BlueTeamPlayerCountDS"
+		//"font"			"Tommy Medium Blur 32"
+		//"fgcolor"		"Black^3"
+		//"labelText"		"%blueteamplayercount%"
+		//"textAlignment"		"west"
+		//"xpos"			"1"
+		//"ypos"			"-1"
+		//"wide"			"324"
+		//"tall"			"30"
+		//"visible"		"1"
+		//"enabled"		"1"
 		
-		"pin_to_sibling"			"BlueTeamPlayerCount"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"1"
+		//"pin_to_sibling"			"BlueTeamPlayerCount"
+		//"pin_corner_to_sibling"		"1"
+		//"pin_to_sibling_corner"		"1"
 		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}		
+		//if_mvm
+		//{
+			//"visible"		"0"
+		//}
+	//}		
 	"BlueTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -167,32 +167,32 @@
 			"visible"		"0"
 		}
 	}
-	"BlueTeamScoreDS"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamScoreDS"
-		"font"			"Tommy Medium Blur 32"
-		"fgcolor"		"Black^3"
-		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"wide"			"324"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+	//"BlueTeamScoreDS"
+	//{
+		//"ControlName"		"CExLabel"
+		//"fieldName"		"BlueTeamScoreDS"
+		//"font"			"Tommy Medium Blur 32"
+		//"fgcolor"		"Black^3"
+		//"labelText"		"%blueteamscore%"
+		//"textAlignment"		"east"
+		//"xpos"			"1"
+		//"ypos"			"-1"
+		//"wide"			"324"
+		//"tall"			"30"
+		//"autoResize"	"0"
+		//"pinCorner"		"0"
+		//"visible"		"1"
+		//"enabled"		"1"
 		
-		"pin_to_sibling"			"BlueTeamScore"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"1"
+		//"pin_to_sibling"			"BlueTeamScore"
+		//"pin_corner_to_sibling"		"1"
+		//"pin_to_sibling_corner"		"1"
 		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}							
+		//if_mvm
+		//{
+			//"visible"		"0"
+		//}
+	//}							
 	"RedTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -216,32 +216,32 @@
 			"visible"		"0"
 		}
 	}
-	"RedTeamPlayerCountDS"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamPlayerCountDS"
-		"font"			"Tommy Medium Blur 32"
-		"fgcolor"		"Black^3"
-		"labelText"		"%redteamplayercount%"
-		"textAlignment"		"east"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"wide"			"324"
-		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+	//"RedTeamPlayerCountDS"
+	//{
+		//"ControlName"		"CExLabel"
+		//"fieldName"		"RedTeamPlayerCountDS"
+		//"font"			"Tommy Medium Blur 32"
+		//"fgcolor"		"Black^3"
+		//"labelText"		"%redteamplayercount%"
+		//"textAlignment"		"east"
+		//"xpos"			"1"
+		//"ypos"			"-1"
+		//"wide"			"324"
+		//"tall"			"30"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
+		//"visible"		"1"
+		//"enabled"		"1"
 		
-		"pin_to_sibling"			"RedTeamPlayerCount"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"1"
+		//"pin_to_sibling"			"RedTeamPlayerCount"
+		//"pin_corner_to_sibling"		"1"
+		//"pin_to_sibling_corner"		"1"
 		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
+		//if_mvm
+		//{
+			//"visible"		"0"
+		//}
+	//}
 	"RedTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -265,32 +265,32 @@
 			"visible"		"0"
 		}
 	}
-	"RedTeamScoreDS"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamScoreDS"
-		"font"			"Tommy Medium Blur 32"
-		"fgcolor"		"Black^3"
-		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"wide"			"324"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+	//"RedTeamScoreDS"
+	//{
+		//"ControlName"		"CExLabel"
+		//"fieldName"		"RedTeamScoreDS"
+		//"font"			"Tommy Medium Blur 32"
+		//"fgcolor"		"Black^3"
+		//"labelText"		"%redteamscore%"
+		//"textAlignment"		"west"
+		//"xpos"			"1"
+		//"ypos"			"-1"
+		//"wide"			"324"
+		//"tall"			"30"
+		//"autoResize"	"0"
+		//"pinCorner"		"0"
+		//"visible"		"1"
+		//"enabled"		"1"
 		
-		"pin_to_sibling"			"RedTeamScore"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"1"
+		//"pin_to_sibling"			"RedTeamScore"
+		//"pin_corner_to_sibling"		"1"
+		//"pin_to_sibling_corner"		"1"
 		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}				
+		//if_mvm
+		//{
+			//"visible"		"0"
+		//}
+	//}				
 	"ServerTimeLeftIcon"
 	{
 		"ControlName"		"CExLabel"
@@ -298,8 +298,8 @@
 		"font"			"Icons 16"
 		"labelText"		"t"
 		"textAlignment"		"west"
-		"xpos"			"5"
-		"ypos"			"-5"
+		"xpos"			"p0.0175" // lots of dumb values lol
+		"ypos"			"p-0.01"
 		"zpos"			"2"
 		"wide"			"165"
 		"tall"			"31"
@@ -376,12 +376,12 @@
 		"fieldName"		"Spectators"
 		"font"			"Evo Sans 8"
 		"labelText"		"%spectators%"
-		"textAlignment"		"east"
-		"xpos"			"rs1-2"
-		"ypos"			"rs1-9"
+		"textAlignment"		"north-east"
+		"xpos"			"rs1-14"
+		"ypos"			"rs1-6"
 		"zpos"			"4"
-		"wide"			"424"
-		"tall"			"20"
+		"wide"			"f0"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -398,12 +398,12 @@
 		"fieldName"		"SpectatorsInQueue"
 		"font"			"Evo Sans 8"
 		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"east"
-		"xpos"			"rs1-2"
-		"ypos"			"rs1-2"
+		"textAlignment"		"south-east"
+		"xpos"			"rs1-14"
+		"ypos"			"rs1-6"
 		"zpos"			"4"
-		"wide"			"424"
-		"tall"			"20"
+		"wide"			"f0"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -470,10 +470,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Evo Sans Bold 20"
+		"font"			"Tommy Medium 20"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
- 		"xpos"			"5"	
+ 		"xpos"			"14" // cool value lol
 		"ypos"			"rs1-5"
 		"wide"			"f0"
 		"tall"			"18"

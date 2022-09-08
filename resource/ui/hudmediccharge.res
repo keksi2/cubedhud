@@ -21,7 +21,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Über Percentage"
+		"font"			"Tommy Medium 34" // "Über Percentage"
 		"fgcolor"		"Über Percentage"
 	}
 	"IndividualChargesLabel"
@@ -42,7 +42,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Über Percentage"
+		"font"			"Tommy Medium 34" // "Über Percentage"
 		"fgcolor"		"Über Percentage"
 	}
 	

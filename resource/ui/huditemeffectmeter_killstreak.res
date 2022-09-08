@@ -13,7 +13,7 @@
 	{
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"2"
-		"ypos"					"1"
+		"ypos"					"0"
 		"wide"					"40"
 		"tall"					"20"
 		"textAlignment"			"west"

@@ -59,20 +59,25 @@ Scheme
 		}
 		"11"
 		{
+			"font"	"resource/fonts/NumbersOnly.otf"
+			"name"	"NumbersOnly"
+		}
+		"12"
+		{
 			"font" "resource/fonts/TF2 Icons.ttf"
 			"name" "TF2 Icons"
 		}
-		"12" 
+		"13" 
 		{
 			"font" "resource/fonts/TF2 Character Icons.ttf"
 			"name" "TF2 Character Icons"
 		}
-		"13" 
+		"14" 
 		{
 			"font" "resource/fonts/TF2Crosshairs.ttf"
 			"name" "TF2Crosshairs"
 		}
-		"14" 
+		"15" 
 		{
 			"font" "resource/fonts/tf2crosshairs_linux.ttf"
 			"name" "tf2crosshairs"

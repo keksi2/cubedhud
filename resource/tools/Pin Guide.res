@@ -1,6 +1,6 @@
 // "pin_to_sibling"        "ELEMENT NAME"
-// "pin_corner_to_sibling" "PIN_TOPLEFT"
-// "pin_to_sibling_corner" "PIN_TOPLEFT"
+// "pin_corner_to_sibling" "PIN_TOPLEFT" // <-- The panel you're putting this code in
+// "pin_to_sibling_corner" "PIN_TOPLEFT" // <-- The panel you're pinning to
 
 // PIN_TOPLEFT             = 0
 // PIN_TOPRIGHT            = 1
@@ -16,3 +16,6 @@
 // 7         5
 // |         |
 // 3 -- 6 -- 2
+
+// Not pinning related, but if you want rs1 to work add
+// '"proportionaltoparent" "1"' to the element in question

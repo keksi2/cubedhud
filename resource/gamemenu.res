@@ -7,7 +7,7 @@
 		"command" "motd_show"
 		"tooltip" "Show Buttons"
 	}
-	// In-Game Buttons
+	// In_Game Buttons
 	"CallVoteButton"
 	{
 		"label"			"v"
@@ -109,56 +109,7 @@
 	"InfoButton"
 	{
 		"label"	"1"
-		"command" "engine con_enable 1;clear;showconsole;
-			
-			echo ------------------------------------;
-			echo ----------------MM------------------;
-			echo ---------------MxxM-----------------;
-			echo ----------------MxxMMMMM------------;
-			echo ---------------MMxxM....M-----------;
-			echo -------------MM.xxxM...M------------;
-			echo ------------M...xxx.....M-----------;
-			echo -----------M.....xx...x.xM----------;
-			echo -----------M...........MxM----------;
-			echo ----------M.............M-----------;
-			echo ----------M.........HHH.M-----------;
-			echo ----------M........HH..MM-----------;
-			echo ---------M........HH..MMM-----------;
-			echo ---------M.M.......H.M..HM----------;
-			echo --------MM.M...M....H..H..M---------;
-			echo --------M..M...M...xxHH...M---------;
-			echo --------MM.M....M.........M---------;
-			echo --------M.x.M...M.....M..M----------;
-			echo ---------MM.M....M.....MM-----------;
-			echo ----------M.MM....M#####------------;
-			echo -----------MM#M...M#####M-----------;
-			echo ------------M##MMMMMMMMMM-----------;
-			echo ----------M#MM+~~~MM~~+MMM----------;
-			echo ----------MM~~~~~M~~M~~~+M----------;
-			echo ----------M~~~~~M+~~~M~~~+M---------;
-			echo ------MMMM+~~~~M+~~~~~+~~~MMMM------;
-			echo ------M..M+~~~~M~~~~~~++~~M..M------;
-			echo ------M..M~~~~+~~~~~~~~+~~M..M------;
-			echo ------M..M~~~~~~~~~~~~~~~~M..M------;
-			echo ------M.M+~~~~~~~~~~~~~~~~+M.M------;
-			echo ------MMM~~~~~~~~~~~~~~~~~~MMM------;
-			echo -------M+~~~~~~~~~~~~~~~~~~+M-------;
-			echo -------M+~~~~~~~~~~~~~~~~~~M--------;
-			echo --------M+~~~~~~~~~~~~~~~~+M--------;
-			echo ---------MM~~~~~~~~~~~~~~~M---------;
-			echo -----------MM~~~~~~~~~~~MM----------;
-			echo -------------MM+~~~~~+MM------------;
-			echo ------------++MMMMMMMMMM+-----------;
-			echo -----------+MMMMM+--+MMMM+----------;
-			echo -----------+MMMM++--+MMMM+----------;
-			echo -----------+++++----+++++-----------;
-			echo ------------------------------------;
-			echo  ;
-			echo hud^3 v1.2 beta (github.com/keksi2/cubedhud);
-			echo Made by keksi (steamcommunity.com/id/keksi212/);
-			echo  ;
-			echo Current Build Date:;
-			echo March 31, 2022"
+		"command" "engine exec hudinfo"
 
 		"tooltip" ""
 	}

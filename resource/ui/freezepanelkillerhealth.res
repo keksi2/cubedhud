@@ -16,26 +16,26 @@
 		"font"			"Tommy Medium 42"
 		"fgcolor"		"White^3"
 	}
-	"PlayerStatusHealthValueDS"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueDS"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"Tommy Medium Blur 42"
-		"fgcolor"		"Black^3"
+	//"PlayerStatusHealthValueDS"
+	//{
+		//"ControlName"	"CExLabel"
+		//"fieldName"		"PlayerStatusHealthValueDS"
+		//"xpos"			"1"
+		//"ypos"			"-1"
+		//"zpos"			"5"
+		//"wide"			"f0"
+		//"tall"			"35"
+		//"visible"		"1"
+		//"enabled"		"1"
+		//"labelText"		"%Health%"
+		//"textAlignment"	"center"	
+		//"font"			"Tommy Medium Blur 42"
+		//"fgcolor"		"Black^3"
 		
-		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"	"1"
-        "pin_to_sibling_corner"	"1"
-	}
+		//"pin_to_sibling"	"PlayerStatusHealthValue"
+		//"pin_corner_to_sibling"	"1"
+        //"pin_to_sibling_corner"	"1"
+	//}
 	
 	"PlayerStatusHealthImage"
 	{

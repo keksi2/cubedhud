@@ -1,3 +1,5 @@
+#base "../../.Preferences/Speedometer.res"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data

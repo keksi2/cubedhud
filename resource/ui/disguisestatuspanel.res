@@ -69,25 +69,25 @@
 		"textAlignment"	"West"
 		"fgcolor_override"	"White^3"
 	}
-	"WeaponNameLabelDS"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"WeaponNameLabelDS"
-		"font"			"Evo Sans Blur 14"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"wide"			"110"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%weaponname%"
-		"textAlignment"	"West"
-		"fgcolor_override"	"Black^3"
+	//"WeaponNameLabelDS"
+	//{	
+		//"ControlName"	"Label"
+		//"fieldName"		"WeaponNameLabelDS"
+		//"font"			"Evo Sans Blur 14"
+		//"xpos"			"1"
+		//"ypos"			"-1"
+		//"wide"			"110"
+		//"tall"			"16"
+		//"visible"		"1"
+		//"enabled"		"1"
+		//"labelText"		"%weaponname%"
+		//"textAlignment"	"West"
+		//"fgcolor_override"	"Black^3"
 		
-		"pin_to_sibling"        "WeaponNameLabel"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-	}
+		//"pin_to_sibling"        "WeaponNameLabel"
+		//"pin_corner_to_sibling" "1"
+		//"pin_to_sibling_corner" "1"
+	//}
 	
 	"SpectatorGUIHealth"
 	{

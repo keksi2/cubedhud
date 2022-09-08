@@ -266,50 +266,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MADE Evolve Sans Edit Bold"
-				"tall"		"24"
-				"tall_lodef"	"80"
-				"weight"	"500"
-				"additive"	"0"
+				"name"		"MADETOMMY-Medium"
+				"tall"		"20"
 				"antialias" "1"
-				"yres"		"480 599"
-			}
-			"2"
-			{
-				"name"		"MADE Evolve Sans Edit Bold"
-				"tall"		"32"
-				"tall_hidef"	"120"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"600 767"
-			}
-			"3"
-			{
-				"name"		"MADE Evolve Sans Edit Bold"
-				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"768 1023"
-			}
-			"4"
-			{
-				"name"		"MADE Evolve Sans Edit Bold"
-				"tall"		"48"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1024 1199"
-			}
-			"5"
-			{
-				"name"		"MADE Evolve Sans Edit Bold"
-				"tall"		"52"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -866,46 +825,44 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"MADE Evolve Sans Edit"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
-
+				"antialias" "1"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"MADE Evolve Sans Edit"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
-
+				"antialias" "1"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"MADE Evolve Sans Edit Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
-
-
+				"antialias" "1"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"MADE Evolve Sans Edit Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
-
 				"italic"	"1"
-
+				"antialias" "1"
 			}
 		}
 		"CloseCaption_Small"
@@ -915,8 +872,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"16"
 				"tall_hidef"	"24"
-
-
+				"antialias" "1"
 			}
 		}
 
@@ -1087,12 +1043,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MADE Evolve Sans Edit Bold"
-				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"name"		"MADETOMMY-Medium"
+				"tall"		"24"
 				"antialias" "1"
-				"additive"	"0"
 			}
 		}
 		"ScoreboardMedium"
