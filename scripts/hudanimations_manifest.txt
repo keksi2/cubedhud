@@ -1,0 +1,12 @@
+// This file loads animations based on hierarchy.
+// So HL2 anims load first, then the HUD's, then TF2's.
+// Any identical animations get replaced by the file before it.
+hudanimations_manifest
+{
+	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_cubedhud.txt" // Custom Animation Overrides
+	"file"		"scripts/hudanimations_tf.txt"
+	
+	// Custom Animations
+	"file"		"scripts/hudanimations_xhair.txt"
+}

@@ -1,0 +1,27 @@
+// load the base configuration
+//exec default.cfg
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level. Remove this if you're using background images instead of maps
+startupmenu
+
+// hud stuff
+sv_unlockedchapters 99 // Allows all custom backgrounds to work
+cl_hud_minmode 0 // If I end up adding a streamer mode or something I'll probably comment this out
+vgui_cache_res_files 0 // Makes editing the main menu bareable. Probably unnecessary for final release
+tf_dashboard_slide_time 0 // Makes the MMPlaylist pop up instead of slide out
+tf_hud_target_id_disable_floating_health 1 // Fixes TargetID. Apologies to anyone who prefers this on
+
+// console filtering
+alias "dimmer_clicked" "" // Removes "Unknown command: dimmer_clicked" spam from console
+alias "close" "" // Removes "Unknown command: close" spam from console (still works in charinfopanel.res)

@@ -1,0 +1,10 @@
+// Crosshair & Hitmarker Animations
+//===========================================
+event DamagedPlayerCrosshair
+{
+	Animate "CustomCrosshair"		FgColor     "Hitmarker Hit"			Linear 	0.0 	0.00001
+   	Animate "CustomCrosshair"		FgColor     "HUD Crosshair"			Linear 	0.10 	0.10001
+	
+	Animate "CustomHitMarker"		FgColor     "Hitmarker Hit"			Linear 	0.0 	0.00001
+   	Animate "CustomHitMarker"		FgColor     "Blank"					Linear 	0.10 	0.10001
+}
